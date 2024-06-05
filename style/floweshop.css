@@ -1,0 +1,46 @@
+/* Common Shared styles */
+
+body {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+}
+
+/* Header styles */
+header{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-position: right;
+}
+section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-main {
+    display: flex;
+    justify-content: right;
+}
+.header-content {
+    text-align: right;
+    max-width: 1140px;
+    padding: 140px 0;
+    margin-left: 50%;
+}
+.header-title{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+}
+.header-description{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 50px;
+}
+.btn-submit{
+    border: 0;
+    background-color: #fff;
+    padding: 15px 25px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+}
